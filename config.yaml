@@ -40,4 +40,4 @@ schema:
   sensors:
     device_name: str
     device_id: str
-image: "local/brokkoli-analysis" 
+ 
