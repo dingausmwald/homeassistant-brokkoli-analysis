@@ -8,11 +8,7 @@ RUN apk add --no-cache \
     py3-pip \
     py3-numpy \
     py3-opencv \
-    libglib-dev \
-    libsm-dev \
-    libxext-dev \
-    libxrender-dev \
-    libgomp \
+    glib-dev \
     && rm -rf /var/cache/apk/*
 
 # Set working directory
