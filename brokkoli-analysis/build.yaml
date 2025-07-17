@@ -7,7 +7,7 @@ build_from:
 labels:
   org.opencontainers.image.title: "Brokkoli Analysis"
   org.opencontainers.image.description: "Image and video stream analysis for plant monitoring"
-  org.opencontainers.image.source: "https://github.com/your-username/brokkoli-analysis-addon"
+  org.opencontainers.image.source: "https://github.com/dingausmwald/homeassistant-brokkoli-analysis"
   org.opencontainers.image.licenses: "MIT"
 args:
   PYTHON_VERSION: "3.11" 
