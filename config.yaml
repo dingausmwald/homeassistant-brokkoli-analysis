@@ -40,4 +40,4 @@ schema:
   sensors:
     device_name: str
     device_id: str
-image: "ghcr.io/your-username/brokkoli-analysis" 
+image: "local/brokkoli-analysis" 
