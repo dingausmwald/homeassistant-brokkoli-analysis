@@ -2,7 +2,7 @@ name: Brokkoli Analysis
 version: "1.0.0"
 slug: brokkoli_analysis
 description: "Image and video stream analysis for plant monitoring with NDVI, green pixel counting, and more"
-url: "https://github.com/your-username/brokkoli-analysis-addon"
+url: "https://github.com/dingausmwald/homeassistant-brokkoli-analysis"
 arch:
   - armhf
   - armv7
@@ -63,4 +63,4 @@ ports:
 map:
   - share:rw
   - config:r
-image: ghcr.io/your-username/brokkoli-analysis-{arch} 
+image: ghcr.io/dingausmwald/homeassistant-brokkoli-analysis-{arch} 
