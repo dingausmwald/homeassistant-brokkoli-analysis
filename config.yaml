@@ -1,5 +1,5 @@
 name: Brokkoli Analysis
-version: "1.0.0"
+version: "1.0.1"
 slug: brokkoli_analysis
 description: "Analyze plant monitoring images with NDVI, green pixel counting, and fisheye correction"
 url: "https://github.com/dingausmwald/homeassistant-brokkoli-analysis"
