@@ -23,7 +23,10 @@ COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 # Copy application files
-COPY rootfs/ /
+COPY *.py ./
+COPY sources/ ./sources/
+COPY processors/ ./processors/
+COPY run.sh ./
 
 # Make run script executable
 RUN chmod +x /opt/brokkoli_analysis/run.sh
