@@ -63,4 +63,4 @@ ports:
 map:
   - share:rw
   - config:r
-image: ghcr.io/dingausmwald/homeassistant-brokkoli-analysis-{arch} 
+# image: ghcr.io/dingausmwald/homeassistant-brokkoli-analysis-{arch} 
